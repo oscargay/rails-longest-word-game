@@ -1,0 +1,27 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.table {
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+ul#horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 0;
+  }
+
+ul {
+  margin: auto;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    padding: 0;
+  }
